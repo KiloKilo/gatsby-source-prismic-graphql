@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.4.0-beta.3](https://github.com/birkir/gatsby-source-prismic-graphql/compare/v3.4.0-beta.2...v3.4.0-beta.3) (2019-10-08)
+
+### Bug Fixes
+
+- **build:** fix package.json files for windows ([8dd6e5a](https://github.com/birkir/gatsby-source-prismic-graphql/commit/8dd6e5a))
+- **preview:** remove check if param is already set in pageContext ([11cccbe](https://github.com/birkir/gatsby-source-prismic-graphql/commit/11cccbe))
+
 # [3.4.0-beta.2](https://github.com/birkir/gatsby-source-prismic-graphql/compare/v3.4.0-beta.1...v3.4.0-beta.2) (2019-08-20)
 
 ### Bug Fixes
