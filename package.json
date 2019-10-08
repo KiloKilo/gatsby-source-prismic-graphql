@@ -8,7 +8,7 @@
     ]
   },
   "scripts": {
-    "setup": "lerna bootstrap; yarn run link; yarn build",
+    "setup": "lerna bootstrap && yarn run link && yarn build",
     "link": "lerna exec --no-private -- yarn link",
     "unlink": "lerna exec --no-private -- yarn unlink",
     "clean": "lerna run clean",
