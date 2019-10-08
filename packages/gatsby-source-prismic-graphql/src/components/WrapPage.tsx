@@ -63,7 +63,7 @@ export class WrapPage extends React.PureComponent<any, WrapPageState> {
 
     const qs = parseQueryString(String(get(this.props, 'location.search', '?')).substr(1));
     this.keys.forEach((key: string) => {
-      if (!params[key] && qs.has(key)) {
+      if (qs.has(key)) {
         params[key] = qs.get(key);
       }
     });
